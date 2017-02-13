@@ -11,3 +11,8 @@ Baseline metrics: (score + std)
 - Recall:  0.786781782452 0.00179403404887
 - F1:  0.786868713966 0.00162766538818
 - AUC:  0.92140834892 0.000922507254995
+
+
+## ATIS:  Airline Travel Information System(ATIS) dataset
+
+My solution: F1 on validation is 94.92
