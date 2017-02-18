@@ -4,7 +4,7 @@ My nuts and bolts solutions on some Deep Learning/Machine Learning/NLP projects
 ## Quora question pair duplication detection
 Dataset: 400K+ pairs, task: binary classification
 
-![Learning curve]("https://github.com/lampts/my_dl_solutions/blob/master/quora_wang_dataset.png?raw=true")
+![Learning curve]("https://raw.github.com/lampts/my_dl_solutions/blob/master/quora_wang_dataset.png")
 
 
 
