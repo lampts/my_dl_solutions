@@ -13,8 +13,12 @@ SOTA:
 Baseline Solution: CNN + RNN + MLP, 290K parameters.
 Baseline metrics: (score + std)
 
-On Wang's dataset: (TBA)
-
+On Wang's dataset: (params 690K), his sota is 88.17 accuracy on test set.
+loss      = 0.3581
+accuracy  = 0.8383
+precision = 0.8104
+recall    = 0.8940
+F         = 0.8474
 
 On Pallen's split: https://github.com/bradleypallen
 
