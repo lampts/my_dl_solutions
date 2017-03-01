@@ -27,11 +27,11 @@ On Wang's dataset: (params 690K)
 
 1.6M params:
 
-loss      = 0.3599
-accuracy  = 0.8489
-precision = 0.8471
-recall    = 0.8612
-F         = 0.8505
+- loss      = 0.3599
+- accuracy  = 0.8489
+- precision = 0.8471
+- recall    = 0.8612
+- F         = 0.8505
 
 On Pallen's split: https://github.com/bradleypallen
 
