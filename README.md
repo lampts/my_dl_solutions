@@ -13,7 +13,7 @@ Dataset: 400K+ pairs, task: binary classification [Link to download](https://dri
 |Model | # Params | Test (Accuracy)|
 |------|----------|----------------|
 | Bilateral Multi-Perspective (Wang, IBM)|N/A|88.17|
-|This model(Laam, Sentifi)|1.4M|84.89|
+|Small cat RNN+CNN *this model* (Laam, Sentifi)|1.4M|84.89|
 
 Notes: we need the apple-to-apple comparison, so I just put the result based on same test data from Wang.
 
