@@ -2,12 +2,13 @@
 My nuts and bolts solutions on some Deep Learning/Machine Learning/NLP projects
 
 ## Quora question pair duplication detection
-Dataset: 400K+ pairs, task: binary classification ![Link to download](https://drive.google.com/file/d/0B0PlTAo--BnaQWlsZl9FZ3l1c28/view?usp=sharing)
+Dataset: 400K+ pairs, task: binary classification [Link to download](https://drive.google.com/file/d/0B0PlTAo--BnaQWlsZl9FZ3l1c28/view?usp=sharing)
 
-** Model Architecture: **
+**Model Architecture:**
 ![Model Architecture] (https://raw.githubusercontent.com/lampts/my_dl_solutions/master/QUORA.png)
 
 
+**Leaderboard**
 |Model | # Params | Test (Accuracy)|
 |------|----------|----------------|
 | Bilateral Multi-Perspective (Wang, IBM)|N/A|88.17|
