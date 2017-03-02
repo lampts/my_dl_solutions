@@ -9,6 +9,7 @@ Dataset: 400K+ pairs, task: binary classification [Link to download](https://dri
 
 
 **Leaderboard**
+
 |Model | # Params | Test (Accuracy)|
 |------|----------|----------------|
 | Bilateral Multi-Perspective (Wang, IBM)|N/A|88.17|
