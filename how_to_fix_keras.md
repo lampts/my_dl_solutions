@@ -6,3 +6,4 @@
 - train in keras, export to tensorflow serving: https://blog.keras.io/keras-as-a-simplified-interface-to-tensorflow-tutorial.html
 - add weights on cross entropy function: https://github.com/fchollet/keras/issues/2115
 - imbalance class weight: https://github.com/fchollet/keras/issues/5116
+- variable initialisation: https://github.com/fchollet/keras/issues/4623
