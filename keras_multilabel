@@ -1,0 +1,13 @@
+from keras.models import Model
+from keras.layers import Input, Dense
+from keras.layers.noise import GaussianDropout
+
+print "[*] Multilabel"
+input1 = Input(shape=(2,), dtype='float32', name='input')
+z1 = Dense(4,activation='relu')(input1)
+z1 = GaussianDropout(0.2)(z1)
+z2 = Dense(2,activation='sigmoid')(z1)
+
+model = Model(inputs=input1,outputs=z2)
+model.compile(optimizer=optimizers.Adam(),loss='binary_crossentropy')
+model.summary()
