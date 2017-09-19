@@ -16,7 +16,7 @@ from grpc.beta import implementations
 from tensorflow_serving.apis import predict_pb2
 from tensorflow_serving.apis import prediction_service_pb2
 
-with open("../emb/word2idx_640K.p", 'rb') as fp:
+with open("../emb/word2idx.p", 'rb') as fp:
     word2idx = pickle.load(fp)
 
 vocab = set(word2idx.keys())
@@ -89,7 +89,7 @@ def predict():
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("--host_port", default="172.17.0.2:9000", type=str, help="host:port")
+    parser.add_argument("--host_port", default="0.0.0.0:9000", type=str, help="host:port")
     args = parser.parse_args()
     print('Set host:port %s' % args.host_port)
     host, port = args.host_port.split(':')
